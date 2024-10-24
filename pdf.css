@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    height: 100vh;
+}
+
+#pdf-viewer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+#pdf-viewer {
+    width: 100%;
+    height: auto;
+}
+
+canvas {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#file-input {
+    position: fixed;
+    top: 5px;
+    background: #555;
+}
